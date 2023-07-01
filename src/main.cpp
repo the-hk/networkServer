@@ -1,9 +1,11 @@
-#include "global.h"
+#include <iostream>
+#include "networkClass.h"
 
 int main()
 {
     	int a = 5;
         a = a * a;
 	std::cout<<a<<std::endl;
-        return 0;	
+        sa();
+	return 0;	
 }
